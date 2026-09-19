@@ -1,0 +1,27 @@
+{
+  "_info": "Calendrier des publications MeetOnGame. La Cloud Function publishScheduledSocialPost lit ce fichier toutes les heures et publie chaque post dont la date est passée (un seul par passage). Un post déjà publié ne l'est jamais deux fois (suivi dans Firestore : social_posts_published/{id}). Pour ajouter un post : ajouter un bloc avec un id unique, l'image JPEG dans ce dossier, puis git push.",
+  "imageBaseUrl": "https://raw.githubusercontent.com/nsialaodilon-pixel/meetongame-legal/main/social/",
+  "posts": [
+    {
+      "id": "lancement-01-annonce",
+      "scheduledFor": "2026-09-20T18:00:00+02:00",
+      "platform": "both",
+      "image": "lancement-01-annonce.jpg",
+      "caption": "Ta prochaine team est peut-être à 5 minutes de chez toi. 🎮\n\nMeetOnGame, c'est l'appli pour trouver des joueurs près de chez toi : même jeu, même plateforme, même niveau. Fini les randoms qui quittent en pleine partie.\n\nLancement très bientôt. Abonne-toi pour ne pas rater l'ouverture 🔔\n\n#MeetOnGame #gaming #gamerfr #jeuxvidéo #multijoueur #squad #coéquipier #gamingcommunity #gamersfrance"
+    },
+    {
+      "id": "lancement-02-comment-ca-marche",
+      "scheduledFor": "2026-09-22T18:30:00+02:00",
+      "platform": "both",
+      "image": "lancement-02-comment-ca-marche.jpg",
+      "caption": "Trouver des coéquipiers en 3 étapes 👇\n\n1️⃣ Crée ton profil : pseudo, ville, tes jeux, ton niveau\n2️⃣ Filtre les joueurs : jeu, plateforme, niveau, distance\n3️⃣ Envoie une demande… et lancez la partie\n\nSimple, rapide, et pensé pour jouer avec des gens de ta région.\n\n#MeetOnGame #gaming #gamerfr #jeuxvidéo #teammate #squad #gamingcommunity #multijoueur"
+    },
+    {
+      "id": "lancement-03-question",
+      "scheduledFor": "2026-09-24T18:30:00+02:00",
+      "platform": "both",
+      "image": "lancement-03-question.jpg",
+      "caption": "Question du jour 👇 Tu joues à quoi en ce moment, et sur quelle plateforme ?\n\nRéponds en commentaire, on veut savoir quels jeux vous rassemblent. Et si tu cherches des coéquipiers, dis-le aussi : MeetOnGame arrive bientôt 👀\n\n#MeetOnGame #gaming #gamerfr #jeuxvidéo #PS5 #Xbox #PCgaming #NintendoSwitch #gamingcommunity"
+    }
+  ]
+}
